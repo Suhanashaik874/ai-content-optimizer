@@ -1,0 +1,7 @@
+credentials/ 
+config/settings.py 
+reports/ 
+__pycache__/ 
+*.pyc 
+.env 
+*.log 

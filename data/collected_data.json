@@ -1,0 +1,2358 @@
+{
+  "google_news": [
+    {
+      "title": "AI Transforming Digital Marketing Strategies",
+      "url": "https://example.com/ai-marketing",
+      "source": "Tech News",
+      "published_at": "2025-12-26T13:38:14.088073",
+      "content": "AI is revolutionizing how marketers approach campaigns...",
+      "keyword": "AI marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.088624",
+      "engagement_metrics": {
+        "views": 1500,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Social Media Engagement Hits Record High",
+      "url": "https://example.com/social-media",
+      "source": "Social Media Today",
+      "published_at": "2025-12-26T13:38:14.088681",
+      "content": "Brands seeing 40% higher engagement on video content...",
+      "keyword": "social media",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.088687",
+      "engagement_metrics": {
+        "views": 3200,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.089997",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090014",
+      "engagement_metrics": {
+        "views": 1197,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090395",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090405",
+      "engagement_metrics": {
+        "views": 3348,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090462",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090468",
+      "engagement_metrics": {
+        "views": 1774,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090483",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090487",
+      "engagement_metrics": {
+        "views": 3192,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090499",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090502",
+      "engagement_metrics": {
+        "views": 3707,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090510",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090513",
+      "engagement_metrics": {
+        "views": 3503,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090522",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090525",
+      "engagement_metrics": {
+        "views": 4059,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090536",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090540",
+      "engagement_metrics": {
+        "views": 2571,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090549",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090552",
+      "engagement_metrics": {
+        "views": 2075,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090560",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090563",
+      "engagement_metrics": {
+        "views": 900,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090571",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090574",
+      "engagement_metrics": {
+        "views": 775,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090597",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090601",
+      "engagement_metrics": {
+        "views": 1788,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090612",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090615",
+      "engagement_metrics": {
+        "views": 1482,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090625",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090628",
+      "engagement_metrics": {
+        "views": 4227,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090642",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090647",
+      "engagement_metrics": {
+        "views": 3058,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090656",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090659",
+      "engagement_metrics": {
+        "views": 1969,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090667",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090670",
+      "engagement_metrics": {
+        "views": 3386,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090678",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090681",
+      "engagement_metrics": {
+        "views": 1380,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090691",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090694",
+      "engagement_metrics": {
+        "views": 4035,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090703",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090706",
+      "engagement_metrics": {
+        "views": 4893,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090715",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090718",
+      "engagement_metrics": {
+        "views": 1655,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090727",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090730",
+      "engagement_metrics": {
+        "views": 605,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090738",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090742",
+      "engagement_metrics": {
+        "views": 2755,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090750",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090753",
+      "engagement_metrics": {
+        "views": 950,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090783",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090789",
+      "engagement_metrics": {
+        "views": 792,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090798",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090801",
+      "engagement_metrics": {
+        "views": 2422,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090809",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090812",
+      "engagement_metrics": {
+        "views": 4359,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090820",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090824",
+      "engagement_metrics": {
+        "views": 751,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090832",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090859",
+      "engagement_metrics": {
+        "views": 1845,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090870",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090872",
+      "engagement_metrics": {
+        "views": 723,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090879",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090897",
+      "engagement_metrics": {
+        "views": 1442,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090909",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090914",
+      "engagement_metrics": {
+        "views": 2494,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090929",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090933",
+      "engagement_metrics": {
+        "views": 1603,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090941",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090944",
+      "engagement_metrics": {
+        "views": 3674,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090951",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090954",
+      "engagement_metrics": {
+        "views": 846,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090963",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090966",
+      "engagement_metrics": {
+        "views": 857,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090975",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090978",
+      "engagement_metrics": {
+        "views": 4647,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.090985",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.090989",
+      "engagement_metrics": {
+        "views": 1589,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.090998",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091000",
+      "engagement_metrics": {
+        "views": 963,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Email Marketing Trends in 2024",
+      "url": "https://example.com/email-marketing",
+      "source": "Email Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091014",
+      "content": "Latest trends and strategies in email marketing...",
+      "keyword": "email marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091017",
+      "engagement_metrics": {
+        "views": 2571,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091025",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091028",
+      "engagement_metrics": {
+        "views": 1683,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091037",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091040",
+      "engagement_metrics": {
+        "views": 3606,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.091048",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091051",
+      "engagement_metrics": {
+        "views": 4427,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091059",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091062",
+      "engagement_metrics": {
+        "views": 904,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Influencer Marketing Trends in 2024",
+      "url": "https://example.com/influencer-marketing",
+      "source": "Influencer Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091077",
+      "content": "Latest trends and strategies in influencer marketing...",
+      "keyword": "influencer marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091080",
+      "engagement_metrics": {
+        "views": 1134,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "SEO Trends in 2024",
+      "url": "https://example.com/seo",
+      "source": "SEO Digest",
+      "published_at": "2025-12-26T13:38:14.091089",
+      "content": "Latest trends and strategies in seo...",
+      "keyword": "seo",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091092",
+      "engagement_metrics": {
+        "views": 3053,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091100",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091103",
+      "engagement_metrics": {
+        "views": 1237,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Content Marketing Trends in 2024",
+      "url": "https://example.com/content-marketing",
+      "source": "Content Marketing Digest",
+      "published_at": "2025-12-26T13:38:14.091113",
+      "content": "Latest trends and strategies in content marketing...",
+      "keyword": "content marketing",
+      "platform": "google_news",
+      "collected_at": "2025-12-26T13:38:14.091116",
+      "engagement_metrics": {
+        "views": 4678,
+        "sentiment": "positive"
+      }
+    }
+  ],
+  "youtube": [
+    {
+      "title": "Genius Marketing Strategy by Zomato\ud83d\ude2c #shorts #marketing #zomato",
+      "url": "https://youtube.com/watch?v=wJ1-eR_hAV0",
+      "channel": "Thinketh ",
+      "published_at": "2022-07-20T13:14:36Z",
+      "description": "Disclaimer- Some contents are used for educational purpose under fair use. Copyright Disclaimer Under Section 107 of the ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:49.696835",
+      "engagement_metrics": {
+        "views": 64785395,
+        "likes": 4213827,
+        "comments": 3590,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Age 16 Kamai 1lakh Mahina \ud83d\ude31 - Sandeep Maheshwari #shorts",
+      "url": "https://youtube.com/watch?v=T2w_FaQAliY",
+      "channel": "Supercarboy",
+      "published_at": "2023-06-06T10:30:13Z",
+      "description": "Age 16 Kamai 1lakh Mahina - Sandeep Maheshwari #shorts Stop wasting your time by Sandeep Maheshwari, Sandeep ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:49.882429",
+      "engagement_metrics": {
+        "views": 11841379,
+        "likes": 696551,
+        "comments": 3397,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Digital Marketing In 5 Minutes | What Is Digital Marketing? | Learn Digital Marketing | Simplilearn",
+      "url": "https://youtube.com/watch?v=bixR-KIJKYM",
+      "channel": "Simplilearn",
+      "published_at": "2020-09-23T15:30:02Z",
+      "description": "Meta - Digital Marketing Specialist ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.053218",
+      "engagement_metrics": {
+        "views": 6143088,
+        "likes": 126688,
+        "comments": 4981,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Zomato&#39;s Marketing Strategy: How They Revolutionized Food Tech #ZomatoMarketing #StartupNewsDaily",
+      "url": "https://youtube.com/watch?v=yyWYt972hAQ",
+      "channel": "Startup News Daily",
+      "published_at": "2025-01-20T13:01:18Z",
+      "description": "Zomato is more than just a food delivery app\u2014it's a marketing powerhouse. In this video, we dive into Zomato's innovative ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.219342",
+      "engagement_metrics": {
+        "views": 7688102,
+        "likes": 201332,
+        "comments": 480,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "How much does DIGITAL MARKETING pay?",
+      "url": "https://youtube.com/watch?v=p5hEBuRi07c",
+      "channel": "Broke Brothers",
+      "published_at": "2023-04-20T06:17:57Z",
+      "description": "teaching #learning #facts #support #goals #like #nonprofit #career #educationmatters #technology #newtechnology #techblogger ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.367157",
+      "engagement_metrics": {
+        "views": 5469151,
+        "likes": 137697,
+        "comments": 946,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "DIGITAL MARKETING Full Course for Beginners in 3 Hours | Learn Digital Marketing in 2025",
+      "url": "https://youtube.com/watch?v=G6DmDqYLWL8",
+      "channel": "WsCube Tech",
+      "published_at": "2020-12-19T14:00:03Z",
+      "description": "DIGITAL MARKETING Full Course for Beginners in 3 Hours | Learn Digital Marketing in 2025 Become a AI Powered Digital ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.536941",
+      "engagement_metrics": {
+        "views": 5273044,
+        "likes": 139630,
+        "comments": 2049,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "How To Sell a Product | Best Way To Sell a Product | By Sandeep Maheshwari | Whatsapp status #shorts",
+      "url": "https://youtube.com/watch?v=Zt7pDRXw9vA",
+      "channel": "Question Approach",
+      "published_at": "2022-01-27T17:10:41Z",
+      "description": "How To Sell a Product | Best Way To Sell a Product | By Sandeep Maheshwari | Whatsapp status #sandeepmaheshwari ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.709049",
+      "engagement_metrics": {
+        "views": 4625154,
+        "likes": 304229,
+        "comments": 448,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Started my online business with just \u20b910,000 in India | Low Budget Ecommerce Strategy #ecommerce",
+      "url": "https://youtube.com/watch?v=-bzsK8lT4mQ",
+      "channel": "Ecommerce By Setu ",
+      "published_at": "2025-04-29T13:05:41Z",
+      "description": "Can You Start an Ecommerce Business in Just \u20b910000? YES, and Here's How! This step-by-step guide shows how to build ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:50.873000",
+      "engagement_metrics": {
+        "views": 6808552,
+        "likes": 150815,
+        "comments": 7226,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Top 5 High Paying Skills For Students\ud83d\udd25| Make Online Money in 2025 | Prashant Kirad",
+      "url": "https://youtube.com/watch?v=rlLhDlHHtVw",
+      "channel": "ExpHub - Prashant Kirad",
+      "published_at": "2025-04-22T13:32:32Z",
+      "description": "Top 5 High Paying skills for students Follow Prashant Kirad on Instagram   ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:51.038795",
+      "engagement_metrics": {
+        "views": 4059622,
+        "likes": 184497,
+        "comments": 17251,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "best email marketing #emailmarketing #emails #digitalmarketing #boldinbox #sharktankindia",
+      "url": "https://youtube.com/watch?v=mzaN9PaVPx8",
+      "channel": "Boldinbox",
+      "published_at": "2024-10-26T10:07:56Z",
+      "description": "Want Shark Tank-Level Email Results? Boldinbox's AI-powered tools can 10X your email conversions\u2014fast! In This #Short: ...",
+      "keyword": "digital marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:51.197742",
+      "engagement_metrics": {
+        "views": 4158274,
+        "likes": 98987,
+        "comments": 201,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Who wanna kebab ??? #ai#facelessyoutubechannelideas #alartcommunity #aiart #ytshorts",
+      "url": "https://youtube.com/watch?v=iooqpVw69TM",
+      "channel": "Fleshcore AI",
+      "published_at": "2025-05-06T14:00:01Z",
+      "description": "ai#facelessyoutubechannelideas #alartcommunity #aiart #ytshorts This isn't just a weird AI video \u2014 it's part of a strategy that ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:51.915337",
+      "engagement_metrics": {
+        "views": 113915469,
+        "likes": 448120,
+        "comments": 5935,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "I Spent Thousands Of Dollars On This AI-Generated Ad To See If It Was Real",
+      "url": "https://youtube.com/watch?v=EStCenW6KT8",
+      "channel": "Sambucha",
+      "published_at": "2025-04-02T17:15:00Z",
+      "description": "Get Merch: https://bucha.shop Become a Member: https://www.youtube.com/channel/UCWBWgCD4oAqT3hUeq40SCUw/join ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.080794",
+      "engagement_metrics": {
+        "views": 25936808,
+        "likes": 1076482,
+        "comments": 4992,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "I Tried AI Dropshipping For 7 Days, Here&#39;s How You Can Copy Me",
+      "url": "https://youtube.com/watch?v=xfOT2elC2Ok",
+      "channel": "Mark Tilbury",
+      "published_at": "2024-12-21T16:12:07Z",
+      "description": "https://www.youtube.com/watch?v=6zb99U-_43M Get a FREE AI-built Shopify store: https://www.buildyourstore.ai/0057 Try ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.240564",
+      "engagement_metrics": {
+        "views": 13518632,
+        "likes": 462264,
+        "comments": 7960,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Unfiltered Asian Market Life@farhanefendi-ai",
+      "url": "https://youtube.com/watch?v=6GHJ6_1PEic",
+      "channel": "MARKET CREATIVE",
+      "published_at": "2025-08-25T16:26:16Z",
+      "description": "Please Subscribe! Unfiltered Asian Market Life shows the real scenes of Asia's traditional markets \u2014 noisy, crowded, and full of ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.410122",
+      "engagement_metrics": {
+        "views": 28677686,
+        "likes": 59703,
+        "comments": 162,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "The AI business model might destroy itself",
+      "url": "https://youtube.com/watch?v=Si_mGxIzHlU",
+      "channel": "Hank Green",
+      "published_at": "2023-03-17T15:26:04Z",
+      "description": "",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.558706",
+      "engagement_metrics": {
+        "views": 5156462,
+        "likes": 341374,
+        "comments": 9854,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Generative AI in a Nutshell - how to survive and thrive in the age of AI",
+      "url": "https://youtube.com/watch?v=2IK3DFHRFfw",
+      "channel": "Henrik Kniberg",
+      "published_at": "2024-01-20T15:47:20Z",
+      "description": "Basically a full day AI course crammed into 18 mins of drawing & talking. Target audience: Everyone. NEWS: Book is now ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.710260",
+      "engagement_metrics": {
+        "views": 3642217,
+        "likes": 123666,
+        "comments": 3913,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "AI Valuations In The Current Market",
+      "url": "https://youtube.com/watch?v=NRMz9TmEbD0",
+      "channel": "Nikhil Kamath",
+      "published_at": "2025-09-11T14:39:01Z",
+      "description": "NikhilKamath Co-founder of Zerodha and Gruhas Host of 'WTF is' & 'People By WTF' Podcast Twitter: ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:52.863871",
+      "engagement_metrics": {
+        "views": 5328574,
+        "likes": 102049,
+        "comments": 555,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Start Earning Money With AI - Free Tools &amp; Business Ideas | Vaibhav Sisinty | FO376 Raj Shamani",
+      "url": "https://youtube.com/watch?v=0-FUhQKe-eU",
+      "channel": "Raj Shamani",
+      "published_at": "2025-07-03T15:39:18Z",
+      "description": "Check out this Roadmap to become an AI Generalist: https://link.growthschool.io/Rajshamanii Join this Exclusive WhatsApp ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:53.018913",
+      "engagement_metrics": {
+        "views": 2861944,
+        "likes": 73466,
+        "comments": 3370,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "This AI Robot Looks More Human Than Ever!",
+      "url": "https://youtube.com/watch?v=rwI2QTcNY48",
+      "channel": "I TO R (\uc544\uc774 \ud22c \uc54c) ",
+      "published_at": "2025-03-31T03:57:04Z",
+      "description": "This AI Robot Looks More Human Than Ever!",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:53.156816",
+      "engagement_metrics": {
+        "views": 5698915,
+        "likes": 27021,
+        "comments": 532,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "12 Income Ideas to Earn Rs. 1 Lakh per month from AI | by Him eesh Madaan",
+      "url": "https://youtube.com/watch?v=3lKiXdtPEWI",
+      "channel": "Him-eesh Madaan",
+      "published_at": "2024-02-24T13:49:10Z",
+      "description": "12 incredible ideas that can help you generate online income right from the comfort of your home! Go From Stuck to Unstoppable ...",
+      "keyword": "AI marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:53.292953",
+      "engagement_metrics": {
+        "views": 2232256,
+        "likes": 79892,
+        "comments": 2535,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social Media Expectations vs Reality \ud83d\ude02 #travel #explore #nature #fyp #shorts #adventure",
+      "url": "https://youtube.com/watch?v=4zEHL3QtO4U",
+      "channel": "The Places You Seek",
+      "published_at": "2023-04-12T10:45:58Z",
+      "description": "",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:53.955320",
+      "engagement_metrics": {
+        "views": 128572629,
+        "likes": 2884690,
+        "comments": 5916,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social Media Expectations vs Reality Part 1 \ud83d\ude02 #travel #explore #nature #fyp #shorts #adventure",
+      "url": "https://youtube.com/watch?v=nsvcq9EjrRc",
+      "channel": "Enter your new reality",
+      "published_at": "2023-04-23T02:20:52Z",
+      "description": "",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.098552",
+      "engagement_metrics": {
+        "views": 112750878,
+        "likes": 2061143,
+        "comments": 3544,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social media vs reality\ud83d\ude05 #travel #explore #instagramvsreality #instagram",
+      "url": "https://youtube.com/watch?v=_ZK9TG1AgaM",
+      "channel": "Traveler's Insight",
+      "published_at": "2023-11-30T22:14:36Z",
+      "description": "",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.243315",
+      "engagement_metrics": {
+        "views": 84524483,
+        "likes": 4008505,
+        "comments": 4039,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social Media \u0915\u093e \u092c\u092b\u0930 \ud83d\udd25 #comedy #funny #shortsfeed #viral",
+      "url": "https://youtube.com/watch?v=gFcF3rjhyE0",
+      "channel": "TEAM BHL SHORTS ",
+      "published_at": "2024-08-16T03:20:07Z",
+      "description": "Social Media \u0915\u093e \u092c\u092b\u0930 #comedy #funny #shortsfeed #viral.",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.407785",
+      "engagement_metrics": {
+        "views": 91536395,
+        "likes": 913565,
+        "comments": 947,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social media is fake #shorts",
+      "url": "https://youtube.com/watch?v=xkOyZmtKXac",
+      "channel": "Ray William Johnson",
+      "published_at": "2022-06-26T21:58:33Z",
+      "description": "Where my 19 bodyguards at? (source vid is by TikTok/@ Grace_Africa ) #shorts #raywilliamjohnson.",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.558793",
+      "engagement_metrics": {
+        "views": 70755632,
+        "likes": 4482115,
+        "comments": 16878,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "5 Most DANGEROUS Social Media Challenges \u2620\ufe0f",
+      "url": "https://youtube.com/watch?v=lEMG9AzaRvg",
+      "channel": "Mrwhosetheboss",
+      "published_at": "2023-01-18T15:05:50Z",
+      "description": "shorts #tiktok I spend a LOT of time trying to make my videos as concise, polished and useful as possible for you - if you would like ...",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.713615",
+      "engagement_metrics": {
+        "views": 56695809,
+        "likes": 2908226,
+        "comments": 31614,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Social media vs reality \ud83d\ude0d\ud83d\ude32 #shorts #ytshorts #trending",
+      "url": "https://youtube.com/watch?v=0C0Sil-Eb-A",
+      "channel": "Dream Destinations KR.",
+      "published_at": "2024-01-29T10:00:00Z",
+      "description": "socialmedia #vs #reality #travel #nature #explore #adventure #relaxing #shorts #ytshorts #trending.",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:54.885992",
+      "engagement_metrics": {
+        "views": 48886617,
+        "likes": 634147,
+        "comments": 260,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "One feet  hight, social media pe  viral  piyush #piyush#small_boy",
+      "url": "https://youtube.com/watch?v=RXE-Q2XqqX4",
+      "channel": "mscc news",
+      "published_at": "2024-12-29T23:43:21Z",
+      "description": "One feet hight, social media pe viral piyush #piyush#small_boy #small_boy #little #viralvideo #viralpiyush #entertainmentshorts ...",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:55.036848",
+      "engagement_metrics": {
+        "views": 64544032,
+        "likes": 849242,
+        "comments": 647,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Watch Out For This Social Media Traveling Scams!",
+      "url": "https://youtube.com/watch?v=P48Je-_Uuvs",
+      "channel": "Get To World",
+      "published_at": "2025-03-20T22:05:00Z",
+      "description": "This is social media vs reality and I will show you the differences between places in real life and on social media. First up is ...",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:55.189733",
+      "engagement_metrics": {
+        "views": 62826141,
+        "likes": 1334574,
+        "comments": 3349,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "\u092c\u0939\u094b\u0924 \u092c\u0921\u093c\u0947 \u0911\u092b\u093f\u0938\u0930 \u0925\u0947 | Team Pcf | Popatbhai ahir | Social Media Ashram",
+      "url": "https://youtube.com/watch?v=QJaabmKSjCE",
+      "channel": "Popatbhai Charitable Foundation",
+      "published_at": "2023-01-14T12:30:18Z",
+      "description": "\u092c\u0939\u094b\u0924 \u092c\u0921\u093c\u0947 \u0911\u092b\u093f\u0938\u0930 \u0925\u0947 | Team Pcf | Popatbhai ahir | Social Media Ashram CONTACT NO :- +917690011900 ...",
+      "keyword": "social media",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:55.338625",
+      "engagement_metrics": {
+        "views": 40698397,
+        "likes": 375456,
+        "comments": 19802,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "The Power of Marketing \ud83d\udd25\ud83d\ude32 | Kuldeep Singhaniaa #shorts",
+      "url": "https://youtube.com/watch?v=KRIdX8l_96A",
+      "channel": "Kuldeep Singhania Shorts",
+      "published_at": "2024-10-17T13:48:21Z",
+      "description": "",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.012037",
+      "engagement_metrics": {
+        "views": 3705375,
+        "likes": 214925,
+        "comments": 919,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "SEO In 5 Minutes | What Is SEO And How Does It Work | SEO Explained | SEO Tutorial | Simplilearn",
+      "url": "https://youtube.com/watch?v=MYE6T_gd7H0",
+      "channel": "Simplilearn",
+      "published_at": "2020-12-23T13:39:48Z",
+      "description": "Meta - Digital Marketing Specialist ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.166715",
+      "engagement_metrics": {
+        "views": 2163364,
+        "likes": 47327,
+        "comments": 1964,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Digital Marketing with AI Full Course for Beginners in 4 HOURS - 2025 Updated [No Experience Needed]",
+      "url": "https://youtube.com/watch?v=kunkYTKFNtI",
+      "channel": "WsCube Tech",
+      "published_at": "2024-09-19T13:30:25Z",
+      "description": "Digital Marketing with AI Full Course for Beginners in 4 Hours - 2025 Updated [No Experience Needed] To learn Digital ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.330409",
+      "engagement_metrics": {
+        "views": 2133862,
+        "likes": 62250,
+        "comments": 1149,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Understand Marketing in 30 Seconds #shorts #mangeshshinde",
+      "url": "https://youtube.com/watch?v=aIAmCflgmoQ",
+      "channel": "Mangesh Shinde Shorts",
+      "published_at": "2025-01-05T06:00:00Z",
+      "description": "What is marketing? Get to Know in seconds: Imagine you own a circus and bring it to a city: Advertising: Putting up posters ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.467378",
+      "engagement_metrics": {
+        "views": 2533756,
+        "likes": 177335,
+        "comments": 261,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "\ud83d\udd25\ud83d\udcb0How Much Does Digital Marketing Pay | Salary In Digital Marketing #Shorts #simplilearn",
+      "url": "https://youtube.com/watch?v=KXj90LX282g",
+      "channel": "Simplilearn",
+      "published_at": "2024-05-02T13:30:26Z",
+      "description": "Curious about the earning potential in digital marketing? Dive into this quick snippet for an eye-opening glimpse into the salary ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.673222",
+      "engagement_metrics": {
+        "views": 2456570,
+        "likes": 62754,
+        "comments": 31,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Influencer Marketing \u0915\u093e Future India \u092e\u0947\u0902 ? #shorts #creator #business",
+      "url": "https://youtube.com/watch?v=L4MhKaiFPiY",
+      "channel": "CA Rahul Malodia",
+      "published_at": "2024-12-02T06:30:12Z",
+      "description": "Rahul Malodia is a professional CA, Management Consultant, And Business Coach. He started a revolution for Businessmen, with ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.826156",
+      "engagement_metrics": {
+        "views": 1489029,
+        "likes": 130840,
+        "comments": 687,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "10 Digital Marketing Skills to Learn in 2024 || Top 10 Digital Marketing Skills 2024",
+      "url": "https://youtube.com/watch?v=r9XndUX9-ZU",
+      "channel": "We Make Creators",
+      "published_at": "2024-03-17T13:09:33Z",
+      "description": "Join this channel to get access to perks: https://www.youtube.com/channel/UCr6hHjMNvgQxErQ1ZJV4drw/join \u27a1\ufe0f Fill This Form ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:56.982298",
+      "engagement_metrics": {
+        "views": 1770650,
+        "likes": 76780,
+        "comments": 271,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "\u09b9\u09bf \u09b9\u09bf \u09ac\u0989 \u0995\u09bf \u09a6\u09c7\u0996\u09c7 \u09a8\u09bf\u09b2\u09cb \u09a8\u09be\u0995\u09bf \ud83d\ude01#contentmarketing #foodchallenge",
+      "url": "https://youtube.com/watch?v=Sy5BA6cxAJY",
+      "channel": "Village Food World",
+      "published_at": "2025-12-03T05:00:40Z",
+      "description": "Disclaimer & Credits (YouTube Friendly) This video is made for entertainment and explanation purposes only. Original Video ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:57.129871",
+      "engagement_metrics": {
+        "views": 1873299,
+        "likes": 14831,
+        "comments": 19,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "\u09a6\u09be\u09a6\u09bf \u09a6\u09c7\u0996\u09be\u09b2\u09cb \u09ae\u099c\u09be \u09b9\u09bf \u09b9\u09bf \ud83d\ude01#foodchallenge #contentmarketing",
+      "url": "https://youtube.com/watch?v=bs2viDR_67E",
+      "channel": "Village Food World",
+      "published_at": "2025-12-07T07:02:10Z",
+      "description": "\u09a6\u09be\u09a6\u09bf \u09a6\u09c7\u0996\u09be\u09b2\u09cb \u09ae\u099c\u09be \u09b9\u09bf \u09b9\u09bf #foodchallenge #contentmarketing Disclaimer & Credits (YouTube Friendly) This ...",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:57.402659",
+      "engagement_metrics": {
+        "views": 1745249,
+        "likes": 13294,
+        "comments": 14,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "#cortos",
+      "url": "https://youtube.com/watch?v=2EucyHsssvY",
+      "channel": "dramashorts1mx",
+      "published_at": "2025-11-30T07:25:01Z",
+      "description": "Originally priced around $1.5 million, the Mercedes CLR GTR is considered oneof the most exclusive a No No problem!",
+      "keyword": "content marketing",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:57.565946",
+      "engagement_metrics": {
+        "views": 1872004,
+        "likes": 0,
+        "comments": 20,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Completing the @MrBeast quest. Thank you Jimmy.",
+      "url": "https://youtube.com/watch?v=pOKkvN3CikY",
+      "channel": "James Seo",
+      "published_at": "2023-06-05T20:13:10Z",
+      "description": "",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.228800",
+      "engagement_metrics": {
+        "views": 109224361,
+        "likes": 5160051,
+        "comments": 31066,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "$1 or a new PS8?",
+      "url": "https://youtube.com/watch?v=fHFt2nwdS4s",
+      "channel": "James Seo",
+      "published_at": "2023-11-21T21:00:49Z",
+      "description": "",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.377841",
+      "engagement_metrics": {
+        "views": 88075725,
+        "likes": 5272168,
+        "comments": 33658,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "$50 or mystery headphones? (KOREA EDITION)",
+      "url": "https://youtube.com/watch?v=1S-bwWaFpOU",
+      "channel": "James Seo",
+      "published_at": "2024-10-17T19:02:51Z",
+      "description": "",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.531981",
+      "engagement_metrics": {
+        "views": 46940659,
+        "likes": 2380208,
+        "comments": 15230,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "SeO - \u042f \u044d\u0442\u043e \u0442\u044b (\u041f\u0440\u0435\u043c\u044c\u0435\u0440\u0430 \u043a\u043b\u0438\u043f\u0430 2021)",
+      "url": "https://youtube.com/watch?v=RpyYBXE6n4o",
+      "channel": "SeO Music",
+      "published_at": "2021-12-13T15:45:29Z",
+      "description": "\u0421\u043b\u0443\u0448\u0430\u0439 \u0440\u0435\u043c\u0435\u0439\u043a \u043d\u0430 \u043f\u0435\u0441\u043d\u044e \u041c\u0443\u0440\u0430\u0442\u0430 \u041d\u0430\u0441\u044b\u0440\u043e\u0432\u0430 \u043e\u0442 \u0433\u0440\u0443\u043f\u043f\u044b SeO https://l.1mp.ru/seoyat/ \u27a3 \u041c\u0443\u0437\u044b\u043a\u0430 \u043f\u0435\u0441\u043d\u0438: \u041c\u0443\u0440\u0430\u0442 \u041d\u0430\u0441\u044b\u0440\u043e\u0432 ...",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.677429",
+      "engagement_metrics": {
+        "views": 20440489,
+        "likes": 20852,
+        "comments": 453,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "$1 or mystery headphones?",
+      "url": "https://youtube.com/watch?v=2MYAYFYuq5Q",
+      "channel": "James Seo",
+      "published_at": "2024-11-21T20:33:45Z",
+      "description": "",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.818176",
+      "engagement_metrics": {
+        "views": 19330493,
+        "likes": 1200037,
+        "comments": 2220,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "[Behind the Scenes] Kim Soo-hyun wraps Seo Yea-ji in a warm hug | It\u2019s Okay to Not Be Okay [ENG SUB]",
+      "url": "https://youtube.com/watch?v=Ve5OaLT8LoQ",
+      "channel": "Netflix K-Content",
+      "published_at": "2020-07-21T04:00:04Z",
+      "description": "A peek behind the scenes with Kim Soo-hyun and Seo Yea-ji as they rehearse the knife-grabbing scene and perfect the Butterfly ...",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:58.963441",
+      "engagement_metrics": {
+        "views": 9617705,
+        "likes": 193163,
+        "comments": 2731,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Coldplay KDrama Version ft What&#39;s Wrong with Secretary Kim | Park Seo Jun, Park Min Young #edit",
+      "url": "https://youtube.com/watch?v=9mpXpl6WpeQ",
+      "channel": "KDrama Diary",
+      "published_at": "2025-07-19T11:26:05Z",
+      "description": "No copyright infringement intended. This clip is shared for entertainment purposes only.",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:59.121519",
+      "engagement_metrics": {
+        "views": 17372173,
+        "likes": 300623,
+        "comments": 551,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "She Was The SHORTEST... But OUTSMARTED Everyone\ud83d\ude28\ud83e\udd47 | Seo Chae-Hyun",
+      "url": "https://youtube.com/watch?v=cmRhpVwCma0",
+      "channel": "Peakzmotivation",
+      "published_at": "2025-12-17T00:53:41Z",
+      "description": "",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:59.279138",
+      "engagement_metrics": {
+        "views": 12959144,
+        "likes": 215855,
+        "comments": 422,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Oh Eun Seo Evolution \ud83e\udd70 #evolution #familybychoice #oheunseo #kdramaedit #lovenextdoor #shimjiyoo",
+      "url": "https://youtube.com/watch?v=r34SWRxb-iY",
+      "channel": "Albert Nazz",
+      "published_at": "2024-11-08T15:14:03Z",
+      "description": "Lim Ji Yeon's Upcoming Drama + Everything We Know: https://youtu.be/3w6c21MCRvU Gong Yoo's Upcoming Drama + ...",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:59.443003",
+      "engagement_metrics": {
+        "views": 8129165,
+        "likes": 337339,
+        "comments": 0,
+        "duration": "medium"
+      }
+    },
+    {
+      "title": "Seo-jun God level attitude\ud83d\udca5\ud83e\udd2f | True Beauty | MANDA BALA (Super Slowed) #edit #shorts #truebeauty",
+      "url": "https://youtube.com/watch?v=jLZn3rZdrRo",
+      "channel": "Sagar AE7",
+      "published_at": "2025-12-18T12:35:03Z",
+      "description": "Movie: True beauty Song: MANDA BALA (Super Slowed). All - Credits: Editing Software: After effects For Quality: Topaz Video Ai ...",
+      "keyword": "SEO",
+      "platform": "youtube",
+      "collected_at": "2025-12-26T13:38:59.601468",
+      "engagement_metrics": {
+        "views": 10880851,
+        "likes": 0,
+        "comments": 485,
+        "duration": "medium"
+      }
+    }
+  ],
+  "reddit": [
+    {
+      "title": "Latest update about... social media?",
+      "url": "https://reddit.com/r/content_marketing/sample0",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-22T13:38:59.637996",
+      "content": "Discussion about social media in the context of news...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638032",
+      "engagement_metrics": {
+        "upvotes": 76,
+        "comments": 35,
+        "awards": 2,
+        "score": 314,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... AI marketing?",
+      "url": "https://reddit.com/r/socialmedia/sample1",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-24T13:38:59.638056",
+      "content": "Discussion about AI marketing in the context of discussion...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638067",
+      "engagement_metrics": {
+        "upvotes": 142,
+        "comments": 29,
+        "awards": 0,
+        "score": 641,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "I increased... SEO?",
+      "url": "https://reddit.com/r/digital_marketing/sample2",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-22T13:38:59.638089",
+      "content": "Discussion about SEO in the context of success story...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638098",
+      "engagement_metrics": {
+        "upvotes": 256,
+        "comments": 81,
+        "awards": 0,
+        "score": 207,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Complete guide to... social media?",
+      "url": "https://reddit.com/r/SEO/sample3",
+      "subreddit": "SEO",
+      "published_at": "2025-12-20T13:38:59.638119",
+      "content": "Discussion about social media in the context of guide...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638127",
+      "engagement_metrics": {
+        "upvotes": 472,
+        "comments": 80,
+        "awards": 1,
+        "score": 133,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "How do I... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample4",
+      "subreddit": "marketing",
+      "published_at": "2025-12-26T13:38:59.638148",
+      "content": "Discussion about AI marketing in the context of question...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638158",
+      "engagement_metrics": {
+        "upvotes": 23,
+        "comments": 5,
+        "awards": 0,
+        "score": 844,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Latest update about... content marketing?",
+      "url": "https://reddit.com/r/content_marketing/sample5",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-22T13:38:59.638175",
+      "content": "Discussion about content marketing in the context of news...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638180",
+      "engagement_metrics": {
+        "upvotes": 77,
+        "comments": 17,
+        "awards": 0,
+        "score": 840,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... SEO?",
+      "url": "https://reddit.com/r/SEO/sample6",
+      "subreddit": "SEO",
+      "published_at": "2025-12-26T13:38:59.638189",
+      "content": "Discussion about SEO in the context of discussion...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638193",
+      "engagement_metrics": {
+        "upvotes": 146,
+        "comments": 43,
+        "awards": 3,
+        "score": 798,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "Latest update about... social media?",
+      "url": "https://reddit.com/r/socialmedia/sample7",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-24T13:38:59.638201",
+      "content": "Discussion about social media in the context of news...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638204",
+      "engagement_metrics": {
+        "upvotes": 92,
+        "comments": 19,
+        "awards": 0,
+        "score": 974,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Complete guide to... SEO?",
+      "url": "https://reddit.com/r/SEO/sample8",
+      "subreddit": "SEO",
+      "published_at": "2025-12-21T13:38:59.638212",
+      "content": "Discussion about SEO in the context of guide...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638216",
+      "engagement_metrics": {
+        "upvotes": 466,
+        "comments": 74,
+        "awards": 2,
+        "score": 604,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample9",
+      "subreddit": "marketing",
+      "published_at": "2025-12-24T13:38:59.638224",
+      "content": "Discussion about AI marketing in the context of discussion...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.638228",
+      "engagement_metrics": {
+        "upvotes": 145,
+        "comments": 27,
+        "awards": 1,
+        "score": 747,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "I increased... social media?",
+      "url": "https://reddit.com/r/PPC/sample10",
+      "subreddit": "PPC",
+      "published_at": "2025-12-24T13:38:59.639589",
+      "content": "Discussion about social media in the context of success story...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639624",
+      "engagement_metrics": {
+        "upvotes": 296,
+        "comments": 81,
+        "awards": 3,
+        "score": 883,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "How do I... SEO?",
+      "url": "https://reddit.com/r/marketing/sample11",
+      "subreddit": "marketing",
+      "published_at": "2025-12-20T13:38:59.639667",
+      "content": "Discussion about SEO in the context of question...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639680",
+      "engagement_metrics": {
+        "upvotes": 31,
+        "comments": 14,
+        "awards": 0,
+        "score": 949,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Latest update about... content marketing?",
+      "url": "https://reddit.com/r/SEO/sample12",
+      "subreddit": "SEO",
+      "published_at": "2025-12-19T13:38:59.639708",
+      "content": "Discussion about content marketing in the context of news...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639718",
+      "engagement_metrics": {
+        "upvotes": 95,
+        "comments": 23,
+        "awards": 2,
+        "score": 472,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Latest update about... social media?",
+      "url": "https://reddit.com/r/SEO/sample13",
+      "subreddit": "SEO",
+      "published_at": "2025-12-20T13:38:59.639798",
+      "content": "Discussion about social media in the context of news...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639810",
+      "engagement_metrics": {
+        "upvotes": 69,
+        "comments": 16,
+        "awards": 0,
+        "score": 347,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Latest update about... content marketing?",
+      "url": "https://reddit.com/r/socialmedia/sample14",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-24T13:38:59.639837",
+      "content": "Discussion about content marketing in the context of news...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639845",
+      "engagement_metrics": {
+        "upvotes": 99,
+        "comments": 23,
+        "awards": 2,
+        "score": 475,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "I increased... digital marketing?",
+      "url": "https://reddit.com/r/content_marketing/sample15",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-24T13:38:59.639873",
+      "content": "Discussion about digital marketing in the context of success story...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639882",
+      "engagement_metrics": {
+        "upvotes": 261,
+        "comments": 77,
+        "awards": 0,
+        "score": 114,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "How do I... digital marketing?",
+      "url": "https://reddit.com/r/SEO/sample16",
+      "subreddit": "SEO",
+      "published_at": "2025-12-21T13:38:59.639908",
+      "content": "Discussion about digital marketing in the context of question...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639916",
+      "engagement_metrics": {
+        "upvotes": 5,
+        "comments": 20,
+        "awards": 1,
+        "score": 166,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "I increased... digital marketing?",
+      "url": "https://reddit.com/r/marketing/sample17",
+      "subreddit": "marketing",
+      "published_at": "2025-12-19T13:38:59.639984",
+      "content": "Discussion about digital marketing in the context of success story...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.639996",
+      "engagement_metrics": {
+        "upvotes": 284,
+        "comments": 85,
+        "awards": 1,
+        "score": 619,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "What's your opinion on... content marketing?",
+      "url": "https://reddit.com/r/content_marketing/sample18",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-21T13:38:59.640020",
+      "content": "Discussion about content marketing in the context of discussion...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640029",
+      "engagement_metrics": {
+        "upvotes": 136,
+        "comments": 26,
+        "awards": 3,
+        "score": 320,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... SEO?",
+      "url": "https://reddit.com/r/content_marketing/sample19",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-20T13:38:59.640053",
+      "content": "Discussion about SEO in the context of discussion...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640063",
+      "engagement_metrics": {
+        "upvotes": 138,
+        "comments": 36,
+        "awards": 0,
+        "score": 871,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... social media?",
+      "url": "https://reddit.com/r/digital_marketing/sample20",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-23T13:38:59.640089",
+      "content": "Discussion about social media in the context of discussion...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640098",
+      "engagement_metrics": {
+        "upvotes": 129,
+        "comments": 40,
+        "awards": 0,
+        "score": 656,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "How do I... digital marketing?",
+      "url": "https://reddit.com/r/PPC/sample21",
+      "subreddit": "PPC",
+      "published_at": "2025-12-26T13:38:59.640122",
+      "content": "Discussion about digital marketing in the context of question...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640131",
+      "engagement_metrics": {
+        "upvotes": 30,
+        "comments": 28,
+        "awards": 3,
+        "score": 953,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "I increased... content marketing?",
+      "url": "https://reddit.com/r/digital_marketing/sample22",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-25T13:38:59.640157",
+      "content": "Discussion about content marketing in the context of success story...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640183",
+      "engagement_metrics": {
+        "upvotes": 233,
+        "comments": 79,
+        "awards": 2,
+        "score": 668,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample23",
+      "subreddit": "marketing",
+      "published_at": "2025-12-24T13:38:59.640213",
+      "content": "Discussion about AI marketing in the context of discussion...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640226",
+      "engagement_metrics": {
+        "upvotes": 163,
+        "comments": 29,
+        "awards": 0,
+        "score": 703,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "What's your opinion on... digital marketing?",
+      "url": "https://reddit.com/r/SEO/sample24",
+      "subreddit": "SEO",
+      "published_at": "2025-12-23T13:38:59.640252",
+      "content": "Discussion about digital marketing in the context of discussion...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640261",
+      "engagement_metrics": {
+        "upvotes": 107,
+        "comments": 35,
+        "awards": 2,
+        "score": 582,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... digital marketing?",
+      "url": "https://reddit.com/r/SEO/sample25",
+      "subreddit": "SEO",
+      "published_at": "2025-12-26T13:38:59.640288",
+      "content": "Discussion about digital marketing in the context of discussion...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640296",
+      "engagement_metrics": {
+        "upvotes": 124,
+        "comments": 42,
+        "awards": 0,
+        "score": 972,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample26",
+      "subreddit": "marketing",
+      "published_at": "2025-12-19T13:38:59.640321",
+      "content": "Discussion about AI marketing in the context of discussion...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640331",
+      "engagement_metrics": {
+        "upvotes": 147,
+        "comments": 25,
+        "awards": 3,
+        "score": 254,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "What's your opinion on... social media?",
+      "url": "https://reddit.com/r/SEO/sample27",
+      "subreddit": "SEO",
+      "published_at": "2025-12-25T13:38:59.640388",
+      "content": "Discussion about social media in the context of discussion...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640399",
+      "engagement_metrics": {
+        "upvotes": 139,
+        "comments": 42,
+        "awards": 2,
+        "score": 171,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "Latest update about... AI marketing?",
+      "url": "https://reddit.com/r/SEO/sample28",
+      "subreddit": "SEO",
+      "published_at": "2025-12-24T13:38:59.640424",
+      "content": "Discussion about AI marketing in the context of news...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640462",
+      "engagement_metrics": {
+        "upvotes": 123,
+        "comments": 32,
+        "awards": 0,
+        "score": 867,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "How do I... content marketing?",
+      "url": "https://reddit.com/r/SEO/sample29",
+      "subreddit": "SEO",
+      "published_at": "2025-12-23T13:38:59.640488",
+      "content": "Discussion about content marketing in the context of question...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640498",
+      "engagement_metrics": {
+        "upvotes": 65,
+        "comments": 13,
+        "awards": 2,
+        "score": 775,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "I increased... content marketing?",
+      "url": "https://reddit.com/r/socialmedia/sample30",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-20T13:38:59.640522",
+      "content": "Discussion about content marketing in the context of success story...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640531",
+      "engagement_metrics": {
+        "upvotes": 232,
+        "comments": 72,
+        "awards": 0,
+        "score": 933,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... digital marketing?",
+      "url": "https://reddit.com/r/SEO/sample31",
+      "subreddit": "SEO",
+      "published_at": "2025-12-24T13:38:59.640556",
+      "content": "Discussion about digital marketing in the context of discussion...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640565",
+      "engagement_metrics": {
+        "upvotes": 125,
+        "comments": 43,
+        "awards": 3,
+        "score": 482,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "I increased... digital marketing?",
+      "url": "https://reddit.com/r/digital_marketing/sample32",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-20T13:38:59.640590",
+      "content": "Discussion about digital marketing in the context of success story...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640598",
+      "engagement_metrics": {
+        "upvotes": 268,
+        "comments": 79,
+        "awards": 0,
+        "score": 403,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "How do I... AI marketing?",
+      "url": "https://reddit.com/r/content_marketing/sample33",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-24T13:38:59.640623",
+      "content": "Discussion about AI marketing in the context of question...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640647",
+      "engagement_metrics": {
+        "upvotes": 48,
+        "comments": 7,
+        "awards": 0,
+        "score": 119,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Latest update about... content marketing?",
+      "url": "https://reddit.com/r/PPC/sample34",
+      "subreddit": "PPC",
+      "published_at": "2025-12-21T13:38:59.640682",
+      "content": "Discussion about content marketing in the context of news...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640695",
+      "engagement_metrics": {
+        "upvotes": 102,
+        "comments": 28,
+        "awards": 3,
+        "score": 323,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "How do I... AI marketing?",
+      "url": "https://reddit.com/r/digital_marketing/sample35",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-19T13:38:59.640766",
+      "content": "Discussion about AI marketing in the context of question...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640781",
+      "engagement_metrics": {
+        "upvotes": 59,
+        "comments": 14,
+        "awards": 0,
+        "score": 529,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "I increased... SEO?",
+      "url": "https://reddit.com/r/content_marketing/sample36",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-23T13:38:59.640817",
+      "content": "Discussion about SEO in the context of success story...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640831",
+      "engagement_metrics": {
+        "upvotes": 258,
+        "comments": 76,
+        "awards": 3,
+        "score": 302,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... social media?",
+      "url": "https://reddit.com/r/marketing/sample37",
+      "subreddit": "marketing",
+      "published_at": "2025-12-24T13:38:59.640867",
+      "content": "Discussion about social media in the context of discussion...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.640880",
+      "engagement_metrics": {
+        "upvotes": 156,
+        "comments": 45,
+        "awards": 2,
+        "score": 593,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "How do I... SEO?",
+      "url": "https://reddit.com/r/SEO/sample38",
+      "subreddit": "SEO",
+      "published_at": "2025-12-26T13:38:59.640976",
+      "content": "Discussion about SEO in the context of question...",
+      "keyword": "SEO",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641048",
+      "engagement_metrics": {
+        "upvotes": -5,
+        "comments": 19,
+        "awards": 2,
+        "score": 467,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Latest update about... AI marketing?",
+      "url": "https://reddit.com/r/socialmedia/sample39",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-19T13:38:59.641084",
+      "content": "Discussion about AI marketing in the context of news...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641099",
+      "engagement_metrics": {
+        "upvotes": 97,
+        "comments": 10,
+        "awards": 1,
+        "score": 211,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "Complete guide to... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample40",
+      "subreddit": "marketing",
+      "published_at": "2025-12-23T13:38:59.641127",
+      "content": "Discussion about AI marketing in the context of guide...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641136",
+      "engagement_metrics": {
+        "upvotes": 497,
+        "comments": 62,
+        "awards": 0,
+        "score": 377,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Latest update about... digital marketing?",
+      "url": "https://reddit.com/r/digital_marketing/sample41",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-25T13:38:59.641163",
+      "content": "Discussion about digital marketing in the context of news...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641172",
+      "engagement_metrics": {
+        "upvotes": 118,
+        "comments": 27,
+        "awards": 0,
+        "score": 352,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "I increased... digital marketing?",
+      "url": "https://reddit.com/r/digital_marketing/sample42",
+      "subreddit": "digital_marketing",
+      "published_at": "2025-12-21T13:38:59.641198",
+      "content": "Discussion about digital marketing in the context of success story...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641207",
+      "engagement_metrics": {
+        "upvotes": 261,
+        "comments": 77,
+        "awards": 3,
+        "score": 623,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "I increased... social media?",
+      "url": "https://reddit.com/r/content_marketing/sample43",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-23T13:38:59.641232",
+      "content": "Discussion about social media in the context of success story...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641244",
+      "engagement_metrics": {
+        "upvotes": 249,
+        "comments": 88,
+        "awards": 1,
+        "score": 663,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "What's your opinion on... digital marketing?",
+      "url": "https://reddit.com/r/socialmedia/sample44",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-24T13:38:59.641273",
+      "content": "Discussion about digital marketing in the context of discussion...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641315",
+      "engagement_metrics": {
+        "upvotes": 166,
+        "comments": 20,
+        "awards": 3,
+        "score": 273,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "What's your opinion on... AI marketing?",
+      "url": "https://reddit.com/r/marketing/sample45",
+      "subreddit": "marketing",
+      "published_at": "2025-12-22T13:38:59.641343",
+      "content": "Discussion about AI marketing in the context of discussion...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641353",
+      "engagement_metrics": {
+        "upvotes": 169,
+        "comments": 45,
+        "awards": 0,
+        "score": 726,
+        "sentiment": "positive"
+      }
+    },
+    {
+      "title": "Latest update about... social media?",
+      "url": "https://reddit.com/r/socialmedia/sample46",
+      "subreddit": "socialmedia",
+      "published_at": "2025-12-22T13:38:59.641380",
+      "content": "Discussion about social media in the context of news...",
+      "keyword": "social media",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641389",
+      "engagement_metrics": {
+        "upvotes": 83,
+        "comments": 23,
+        "awards": 0,
+        "score": 301,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Latest update about... digital marketing?",
+      "url": "https://reddit.com/r/SEO/sample47",
+      "subreddit": "SEO",
+      "published_at": "2025-12-19T13:38:59.641415",
+      "content": "Discussion about digital marketing in the context of news...",
+      "keyword": "digital marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641424",
+      "engagement_metrics": {
+        "upvotes": 107,
+        "comments": 24,
+        "awards": 1,
+        "score": 575,
+        "sentiment": "neutral"
+      }
+    },
+    {
+      "title": "Complete guide to... AI marketing?",
+      "url": "https://reddit.com/r/SEO/sample48",
+      "subreddit": "SEO",
+      "published_at": "2025-12-23T13:38:59.641452",
+      "content": "Discussion about AI marketing in the context of guide...",
+      "keyword": "AI marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641461",
+      "engagement_metrics": {
+        "upvotes": 472,
+        "comments": 74,
+        "awards": 2,
+        "score": 833,
+        "sentiment": "controversial"
+      }
+    },
+    {
+      "title": "How do I... content marketing?",
+      "url": "https://reddit.com/r/content_marketing/sample49",
+      "subreddit": "content_marketing",
+      "published_at": "2025-12-24T13:38:59.641488",
+      "content": "Discussion about content marketing in the context of question...",
+      "keyword": "content marketing",
+      "platform": "reddit",
+      "collected_at": "2025-12-26T13:38:59.641497",
+      "engagement_metrics": {
+        "upvotes": 2,
+        "comments": 15,
+        "awards": 3,
+        "score": 254,
+        "sentiment": "neutral"
+      }
+    }
+  ]
+}

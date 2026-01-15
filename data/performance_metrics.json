@@ -1,0 +1,34 @@
+{
+  "content_performance": [
+    {
+      "platform": "twitter",
+      "topic": "AI Marketing Demo",
+      "length": 265,
+      "engagement": {
+        "score": 82
+      },
+      "generated_at": "2025-12-10T19:09:58.602829",
+      "tracked_at": "2025-12-10T19:09:58.603317",
+      "metrics_id": "metric_1765373998"
+    },
+    {
+      "platform": "twitter",
+      "topic": "AI Marketing",
+      "length": 245,
+      "engagement": {
+        "score": 75
+      },
+      "tracked_at": "2025-12-30T05:54:28.448620",
+      "metrics_id": "metric_1767054268"
+    }
+  ],
+  "platform_stats": {
+    "twitter": {
+      "total_content": 2,
+      "avg_length": 255.0,
+      "last_posted": "2025-12-30T05:54:28.448706"
+    }
+  },
+  "trend_analysis": {},
+  "last_updated": "2025-12-30T05:54:28.448742"
+}

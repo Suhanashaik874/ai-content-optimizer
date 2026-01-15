@@ -1,0 +1,199 @@
+{
+  "best_posting_times": {
+    "google_news": {
+      "peak_hours": [
+        13
+      ],
+      "best_time_range": "13:00 - 16:00",
+      "sample_size": 50,
+      "peak_hour": 13
+    },
+    "youtube": {
+      "peak_hours": [
+        10,
+        13,
+        15
+      ],
+      "best_time_range": "10:00 - 15:00",
+      "sample_size": 50,
+      "peak_hour": 13
+    },
+    "reddit": {
+      "peak_hours": [
+        13
+      ],
+      "best_time_range": "13:00 - 16:00",
+      "sample_size": 50,
+      "peak_hour": 13
+    }
+  },
+  "viral_content_patterns": {
+    "high_engagement_titles": [
+      "Genius Marketing Strategy by Zomato\ud83d\ude2c #shorts #marketing #zomato",
+      "Who wanna kebab ??? #ai#facelessyoutubechannelideas #alartcommunity #aiart #ytshorts",
+      "Social Media Expectations vs Reality \ud83d\ude02 #travel #explore #nature #fyp #shorts #adventure",
+      "Social Media Expectations vs Reality Part 1 \ud83d\ude02 #travel #explore #nature #fyp #shorts #adventure",
+      "Social media vs reality\ud83d\ude05 #travel #explore #instagramvsreality #instagram"
+    ],
+    "common_keywords_in_viral": [
+      "social",
+      "media",
+      "shorts",
+      "reality",
+      "travel",
+      "explore",
+      "marketing",
+      "zomato",
+      "ytshorts",
+      "expectations"
+    ],
+    "content_length_pattern": {},
+    "emotional_triggers": []
+  },
+  "engagement_insights": {
+    "google_news": {
+      "total_items": 50,
+      "avg_title_length": 27.78
+    },
+    "youtube": {
+      "avg_views": 29086513,
+      "avg_likes": 907611,
+      "view_to_like_ratio": 0.031203867364892675,
+      "max_views": 128572629,
+      "min_views": 1489029,
+      "total_items": 50
+    },
+    "reddit": {
+      "avg_upvotes": 160,
+      "avg_comments": 40,
+      "engagement_rate": 0.2519606622681439,
+      "total_items": 50
+    }
+  },
+  "keyword_performance": {
+    "google_news": {
+      "AI marketing": {
+        "count": 1,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      },
+      "social media": {
+        "count": 1,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      },
+      "influencer marketing": {
+        "count": 7,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      },
+      "content marketing": {
+        "count": 11,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      },
+      "seo": {
+        "count": 16,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      },
+      "email marketing": {
+        "count": 14,
+        "total_engagement": 0,
+        "avg_engagement": 0
+      }
+    },
+    "youtube": {
+      "digital marketing": {
+        "count": 10,
+        "total_engagement": 120851761,
+        "avg_engagement": 12085176
+      },
+      "AI marketing": {
+        "count": 10,
+        "total_engagement": 206968963,
+        "avg_engagement": 20696896
+      },
+      "social media": {
+        "count": 10,
+        "total_engagement": 761791013,
+        "avg_engagement": 76179101
+      },
+      "content marketing": {
+        "count": 10,
+        "total_engagement": 21743158,
+        "avg_engagement": 2174315
+      },
+      "SEO": {
+        "count": 10,
+        "total_engagement": 342970765,
+        "avg_engagement": 34297076
+      }
+    },
+    "reddit": {
+      "social media": {
+        "count": 10,
+        "total_engagement": 1761,
+        "avg_engagement": 176
+      },
+      "AI marketing": {
+        "count": 12,
+        "total_engagement": 2085,
+        "avg_engagement": 173
+      },
+      "SEO": {
+        "count": 7,
+        "total_engagement": 1290,
+        "avg_engagement": 184
+      },
+      "content marketing": {
+        "count": 9,
+        "total_engagement": 1041,
+        "avg_engagement": 115
+      },
+      "digital marketing": {
+        "count": 12,
+        "total_engagement": 1856,
+        "avg_engagement": 154
+      }
+    }
+  },
+  "platform_insights": {
+    "google_news": {
+      "total_items": 50,
+      "date_range": "2025-12-26 to 2025-12-26",
+      "top_keywords": [
+        "seo",
+        "email marketing",
+        "content marketing",
+        "influencer marketing",
+        "AI marketing"
+      ],
+      "engagement_trend": "Stable"
+    },
+    "youtube": {
+      "total_items": 50,
+      "date_range": "2020-07-21 to 2025-12-18",
+      "top_keywords": [
+        "digital marketing",
+        "AI marketing",
+        "social media",
+        "content marketing",
+        "SEO"
+      ],
+      "engagement_trend": "Decreasing"
+    },
+    "reddit": {
+      "total_items": 50,
+      "date_range": "2025-12-19 to 2025-12-26",
+      "top_keywords": [
+        "AI marketing",
+        "digital marketing",
+        "social media",
+        "content marketing",
+        "SEO"
+      ],
+      "engagement_trend": "Stable"
+    }
+  }
+}

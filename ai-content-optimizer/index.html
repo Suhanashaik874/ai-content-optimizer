@@ -1,0 +1,1465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Content Optimizer - Dynamic Topic Support</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .app-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+            display: flex;
+            min-height: 90vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: #1a1f36;
+            color: white;
+            padding: 30px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .logo-text {
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        .platform-list {
+            flex: 1;
+        }
+
+        .platform-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: rgba(255,255,255,0.05);
+        }
+
+        .platform-item:hover {
+            background: rgba(255,255,255,0.1);
+        }
+
+        .platform-item.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .platform-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .platform-info h3 {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .platform-info p {
+            font-size: 12px;
+            opacity: 0.7;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .header-left h1 {
+            font-size: 28px;
+            color: #1a1f36;
+            margin-bottom: 5px;
+        }
+
+        .header-left p {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .header-right {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .generate-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 10px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s;
+        }
+
+        .generate-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .generate-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Topic Input Section */
+        .topic-section {
+            background: #f8f9ff;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 2px solid #e0e6ff;
+        }
+
+        .topic-input-group {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .topic-input {
+            flex: 1;
+            padding: 15px;
+            border: 2px solid #e0e6ff;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        .topic-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        /* Generator Panel */
+        .generator-panel {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+            flex: 1;
+        }
+
+        /* Platform Content Preview */
+        .platform-preview {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #e0e6ff;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .platform-preview-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e0e6ff;
+        }
+
+        .platform-display {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            background: #f8f9ff;
+            border-radius: 10px;
+        }
+
+        .content-preview {
+            flex: 1;
+            background: #f8f9ff;
+            border-radius: 10px;
+            padding: 20px;
+            overflow-y: auto;
+            font-size: 15px;
+            line-height: 1.6;
+            white-space: pre-wrap;
+            margin-bottom: 20px;
+            border: 1px solid #e0e6ff;
+            min-height: 300px;
+        }
+
+        /* A/B Testing Section */
+        .ab-testing-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid #e0e6ff;
+        }
+
+        .ab-testing-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .ab-controls {
+            display: flex;
+            gap: 10px;
+        }
+
+        .ab-control-btn {
+            padding: 8px 16px;
+            background: white;
+            border: 2px solid #e0e6ff;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .ab-control-btn:hover {
+            border-color: #667eea;
+        }
+
+        .ab-control-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .ab-testing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+        }
+
+        .ab-variant-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            border: 2px solid #e0e6ff;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ab-variant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.1);
+            border-color: #667eea;
+        }
+
+        .ab-variant-card.winner {
+            border-color: #10b981;
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(16, 185, 129, 0.1) 100%);
+        }
+
+        .ab-variant-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e0e6ff;
+        }
+
+        .variant-title {
+            font-weight: 600;
+            color: #1a1f36;
+            font-size: 16px;
+        }
+
+        .variant-platform {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .variant-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .badge-winner {
+            background: #10b981;
+            color: white;
+        }
+
+        .badge-contender {
+            background: #f59e0b;
+            color: white;
+        }
+
+        .variant-content {
+            flex: 1;
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            max-height: 120px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .variant-metrics {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e6ff;
+        }
+
+        .variant-metric {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9ff;
+            border-radius: 8px;
+        }
+
+        .variant-metric-value {
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Monaco', monospace;
+            margin-bottom: 5px;
+        }
+
+        .variant-metric-label {
+            font-size: 11px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .variant-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid #e0e6ff;
+        }
+
+        .variant-action-btn {
+            flex: 1;
+            padding: 8px;
+            background: white;
+            border: 1px solid #e0e6ff;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: all 0.3s;
+        }
+
+        .variant-action-btn:hover {
+            background: #f8f9ff;
+        }
+
+        .variant-action-btn.select {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .variant-action-btn.select:hover {
+            background: #5a6fd8;
+        }
+
+        /* A/B Test Results */
+        .ab-results-panel {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            border: 2px solid #e0e6ff;
+        }
+
+        .results-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .results-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .result-stat {
+            text-align: center;
+            padding: 15px;
+            background: #f8f9ff;
+            border-radius: 10px;
+        }
+
+        .result-stat-value {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            font-family: 'Monaco', monospace;
+        }
+
+        .result-stat-label {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .performance-chart {
+            height: 200px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 60px;
+            margin: 30px 0;
+            padding: 0 40px;
+        }
+
+        .chart-bar {
+            width: 80px;
+            border-radius: 8px 8px 0 0;
+            position: relative;
+            transition: height 1s ease;
+        }
+
+        .chart-bar-label {
+            position: absolute;
+            bottom: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 600;
+            color: #1a1f36;
+        }
+
+        .chart-bar-value {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 700;
+            color: #1a1f36;
+        }
+
+        /* Footer */
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e6ff;
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #e0e6ff;
+            border-top: 5px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar with Platforms -->
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-robot"></i>
+                </div>
+                <div class="logo-text">AI Optimizer</div>
+            </div>
+
+            <div class="platform-list">
+                <div class="platform-item active" data-platform="youtube">
+                    <div class="platform-icon">
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>YouTube</h3>
+                        <p>Video scripts & descriptions</p>
+                    </div>
+                </div>
+
+                <div class="platform-item" data-platform="twitter">
+                    <div class="platform-icon">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>Twitter/X</h3>
+                        <p>Tweets & threads</p>
+                    </div>
+                </div>
+
+                <div class="platform-item" data-platform="linkedin">
+                    <div class="platform-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>LinkedIn</h3>
+                        <p>Professional posts</p>
+                    </div>
+                </div>
+
+                <div class="platform-item" data-platform="instagram">
+                    <div class="platform-icon">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>Instagram</h3>
+                        <p>Captions & stories</p>
+                    </div>
+                </div>
+
+                <div class="platform-item" data-platform="blog">
+                    <div class="platform-icon">
+                        <i class="fas fa-blog"></i>
+                    </div>
+                    <div class="platform-info">
+                        <h3>Blog</h3>
+                        <p>Articles & long-form</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-left">
+                    <h1 id="platformTitle">AI Content Optimizer</h1>
+                    <p id="platformDescription">Generate content for any topic on any platform</p>
+                </div>
+                <div class="header-right">
+                    <div class="stats-badge" id="currentTime">
+                        <i class="far fa-clock"></i> 15:57 31-12-2025
+                    </div>
+                </div>
+            </div>
+
+            <!-- Topic Input Section -->
+            <div class="topic-section">
+                <h2 class="section-title">
+                    <i class="fas fa-edit"></i> Enter Any Topic
+                </h2>
+                <div class="topic-input-group">
+                    <input type="text" 
+                           class="topic-input" 
+                           id="topicInput" 
+                           placeholder="Enter ANY topic (e.g., 'How to bake sourdough bread', 'Benefits of meditation', 'Future of electric cars')"
+                           value="Machine Learning">
+                    <button class="generate-btn" id="generateContentBtn">
+                        <i class="fas fa-magic"></i> Generate Content
+                    </button>
+                    <button class="generate-btn" id="runTestBtn" style="background: #10b981;">
+                        <i class="fas fa-vial"></i> Run A/B Test
+                    </button>
+                </div>
+                <p style="margin-top: 10px; color: #666; font-size: 14px;">
+                    <i class="fas fa-lightbulb"></i> Tip: You can enter ANY topic - from cooking recipes to quantum physics!
+                </p>
+            </div>
+
+            <!-- Loading Animation -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p id="loadingMessage">Generating content for "<span id="loadingTopic"></span>"...</p>
+            </div>
+
+            <!-- Generator Panel -->
+            <div class="generator-panel" id="generatorPanel">
+                <!-- Platform Content Preview -->
+                <div class="platform-preview">
+                    <div class="platform-preview-header">
+                        <div class="platform-display" id="currentPlatform">
+                            <i class="fab fa-youtube"></i>
+                            <div>
+                                <h3>YouTube Content</h3>
+                                <p>Video script & description</p>
+                            </div>
+                        </div>
+                        <button class="generate-btn" id="copyContentBtn">
+                            <i class="far fa-copy"></i> Copy Content
+                        </button>
+                    </div>
+                    <div class="content-preview" id="contentPreview">
+                        Enter any topic above and click "Generate Content" to see platform-specific content here.
+                    </div>
+                </div>
+
+                <!-- A/B Testing Section -->
+                <div class="ab-testing-section">
+                    <div class="ab-testing-header">
+                        <h2 class="section-title">
+                            <i class="fas fa-vial"></i> A/B Testing Variations
+                        </h2>
+                        <div class="ab-controls">
+                            <button class="ab-control-btn active" data-test-type="quick">Quick Test (3 variants)</button>
+                            <button class="ab-control-btn" data-test-type="comprehensive">Comprehensive (5 variants)</button>
+                        </div>
+                    </div>
+                    <div class="ab-testing-grid" id="abTestingGrid">
+                        <!-- A/B Test variants will be dynamically generated here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- A/B Test Results Panel -->
+            <div class="ab-results-panel" id="abResultsPanel">
+                <div class="results-header">
+                    <h2 class="section-title">
+                        <i class="fas fa-chart-bar"></i> Test Results & Analysis
+                    </h2>
+                    <div class="winner-badge" id="winnerBadge" style="background: #10b981; color: white; padding: 8px 16px; border-radius: 20px; font-weight: 600;">
+                        Winner: Loading...
+                    </div>
+                </div>
+
+                <div class="results-stats">
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="totalImpressions">0</div>
+                        <div class="result-stat-label">Total Impressions</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="avgEngagement">0%</div>
+                        <div class="result-stat-label">Avg Engagement</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="conversionRate">0%</div>
+                        <div class="result-stat-label">Conversion Rate</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-stat-value" id="confidenceLevel">0%</div>
+                        <div class="result-stat-label">Confidence Level</div>
+                    </div>
+                </div>
+
+                <div class="performance-chart" id="performanceChart">
+                    <!-- Chart bars will be dynamically generated here -->
+                </div>
+
+                <div class="recommendations">
+                    <h3 class="section-title" style="font-size: 16px;">
+                        <i class="fas fa-lightbulb"></i> AI Recommendations
+                    </h3>
+                    <div id="recommendationsList">
+                        <p>Enter any topic and run an A/B test to get personalized recommendations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-left">
+                    <div><i class="fas fa-cloud-rain"></i> Light rain Tomorrow</div>
+                    <div><i class="fas fa-search"></i> Search</div>
+                </div>
+                <div class="footer-right">
+                    <span><i class="fas fa-globe"></i> ENG</span>
+                    <span style="margin-left: 10px;">IN</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // AI Content Generator - Dynamically creates content for ANY topic
+        const contentGenerator = {
+            // Generate platform-specific content for any topic
+            generateContent: function(topic, platform) {
+                const platformGenerators = {
+                    youtube: (topic) => this.generateYouTubeContent(topic),
+                    twitter: (topic) => this.generateTwitterContent(topic),
+                    linkedin: (topic) => this.generateLinkedInContent(topic),
+                    instagram: (topic) => this.generateInstagramContent(topic),
+                    blog: (topic) => this.generateBlogContent(topic)
+                };
+
+                const generator = platformGenerators[platform] || platformGenerators.youtube;
+                return generator(topic);
+            },
+
+            // YouTube content generator
+            generateYouTubeContent: function(topic) {
+                return `🎬 **YouTube Video: "${topic}" Explained**
+
+🔴 **HOOK (First 15 seconds):**
+"Have you ever wondered about ${topic}? Whether you're a beginner or an expert, this video will give you fresh insights that might surprise you!"
+
+📋 **VIDEO STRUCTURE:**
+0:00 - Introduction to ${topic}
+1:30 - The Core Concepts Explained
+3:45 - Practical Applications & Examples
+6:15 - Common Misconceptions Debunked
+8:30 - How to Get Started
+10:00 - Future Trends & Predictions
+
+💡 **KEY INSIGHTS:**
+• Understanding the fundamentals of ${topic}
+• Real-world applications that matter
+• Step-by-step guide for beginners
+• Expert tips for advanced learners
+
+🎯 **CALL TO ACTION:**
+👍 Like if you learned something new
+🔔 Subscribe for more content on similar topics
+💬 Comment below: What's your experience with ${topic}?
+
+📌 **RELATED TOPICS:**
+#${this.createHashtag(topic)} #Education #Learning #Tutorial #HowTo #ExplainerVideo
+
+💎 **PRO TIP:** Bookmark this video for future reference!`;
+            },
+
+            // Twitter content generator
+            generateTwitterContent: function(topic) {
+                const hashtag = this.createHashtag(topic);
+                return `🧵 **Twitter Thread: Understanding ${topic}**
+
+1/7 Thinking about ${topic}? Here's a comprehensive thread breaking down everything you need to know:
+
+2/7 First, let's define ${topic} in simple terms. It's essentially [explanation based on topic length and complexity].
+
+3/7 The 3 most important things to know about ${topic}:
+1. Point 1
+2. Point 2
+3. Point 3
+
+4/7 Common mistakes people make with ${topic} (and how to avoid them):
+• Mistake 1: Description
+• Mistake 2: Description
+• Mistake 3: Description
+
+5/7 Practical applications of ${topic} in daily life:
+→ Application 1
+→ Application 2
+→ Application 3
+
+6/7 Future outlook: Where is ${topic} heading?
+• Trend 1
+• Trend 2
+• Trend 3
+
+7/7 Want to learn more about ${topic}?
+• Follow for daily insights
+• Check resources in my bio
+• Reply with your questions!
+
+#${hashtag} #Thread #Learning #Education #Knowledge`;
+            },
+
+            // LinkedIn content generator
+            generateLinkedInContent: function(topic) {
+                return `**Professional Insight: Mastering "${topic}" in Today's Landscape**
+
+As professionals, understanding ${topic} has become increasingly important in our rapidly evolving work environment.
+
+**Why ${topic} Matters Now:**
+Recent industry analysis shows that professionals with expertise in ${topic} see:
+• 35% higher engagement in projects
+• 42% faster career progression
+• 28% increase in problem-solving efficiency
+
+**Key Strategies for Success with ${topic}:**
+
+1. **Start with Fundamentals:** Build a strong foundation before advancing
+2. **Practical Application:** Theory means little without real-world implementation
+3. **Continuous Learning:** ${topic} evolves - stay updated with latest developments
+4. **Network Effect:** Connect with others interested in ${topic}
+
+**Actionable Steps to Get Started:**
+• Week 1-2: Research basic concepts
+• Week 3-4: Apply to small projects
+• Month 2: Join relevant communities
+• Month 3: Share your learnings
+
+**Thought Starter:** How has ${topic} impacted your professional journey? What challenges have you overcome?
+
+I'd appreciate hearing your experiences in the comments below.
+
+#${this.createHashtag(topic)} #ProfessionalDevelopment #CareerGrowth #Business #Leadership #Skills`;
+            },
+
+            // Instagram content generator
+            generateInstagramContent: function(topic) {
+                return `🌟 **INSTAGRAM POST: MASTERING ${topic.toUpperCase()}** 🌟
+
+Ready to dive into ${topic}? Here's your complete guide! 👇
+
+[IMAGE 1: Eye-catching graphic about ${topic}]
+[IMAGE 2: Step-by-step process visual]
+[IMAGE 3: Before/After comparison]
+[IMAGE 4: Quick tips carousel]
+
+💡 **5 KEY TAKEAWAYS:**
+
+1️⃣ Start small - don't overwhelm yourself!
+2️⃣ Consistency beats intensity every time
+3️⃣ Learn from both successes AND failures
+4️⃣ Document your progress
+5️⃣ Share your journey with others
+
+✨ **PRO TIP:** The best time to start was yesterday. The second best time is NOW!
+
+🔔 **TURN ON POST NOTIFICATIONS** for daily tips!
+
+[STORY IDEAS]
+→ "Myth vs Fact about ${topic}"
+→ "Quick tutorial: Getting started"
+→ "Common mistakes to avoid"
+→ "Poll: What's your biggest challenge?"
+
+📌 **SAVE THIS POST** for when you need it!
+
+💬 **COMMENT BELOW:**
+What's one thing you want to learn about ${topic}?
+
+#${this.createHashtag(topic)} #Instagram #HowTo #Guide #Tips #Learn #Education`;
+            },
+
+            // Blog content generator
+            generateBlogContent: function(topic) {
+                return `# The Complete Guide to ${topic}: Everything You Need to Know
+
+## Executive Summary
+This comprehensive guide explores ${topic} from multiple angles, providing both beginners and experienced individuals with valuable insights and actionable strategies.
+
+## Introduction
+In today's fast-paced world, ${topic} has emerged as a critical area of interest. Whether you're just starting out or looking to deepen your understanding, this guide will provide the foundation you need.
+
+## Understanding ${topic}
+
+### What is ${topic}?
+At its core, ${topic} represents [adaptive explanation based on topic]. It's more than just a concept - it's a framework for understanding [related area].
+
+### Historical Context
+• Origins and early development
+• Key milestones and breakthroughs
+• Current state and future potential
+
+## Why ${topic} Matters
+
+### Personal Benefits
+• Enhanced understanding of [related concepts]
+• Improved decision-making capabilities
+• Increased confidence in [related areas]
+
+### Professional Applications
+• Workplace efficiency improvements
+• Career advancement opportunities
+• Industry-specific advantages
+
+## Getting Started with ${topic}
+
+### Step 1: Foundation Building
+Begin with basic concepts and terminology.
+
+### Step 2: Practical Application
+Apply what you learn in real-world scenarios.
+
+### Step 3: Advanced Techniques
+Once comfortable, explore more complex applications.
+
+## Common Challenges & Solutions
+
+### Challenge 1: Overcoming Initial Complexity
+**Solution:** Break it down into smaller, manageable parts.
+
+### Challenge 2: Staying Motivated
+**Solution:** Set clear goals and track progress.
+
+### Challenge 3: Finding Quality Resources
+**Solution:** Curate a list of trusted sources.
+
+## Future Outlook
+The future of ${topic} looks promising, with several key developments on the horizon. Experts predict significant evolution in how we approach and apply these concepts.
+
+## Conclusion
+${topic} offers valuable insights and practical applications for anyone willing to invest the time to learn. By following the guidance in this article, you'll be well on your way to mastering this important area.
+
+---
+
+**Ready to dive deeper into ${topic}?** Share your thoughts and questions in the comments below!`;
+            },
+
+            // Helper function to create hashtags from topics
+            createHashtag: function(topic) {
+                return topic
+                    .replace(/[^\w\s]/g, '')
+                    .replace(/\s+/g, '')
+                    .substring(0, 20);
+            }
+        };
+
+        // Dynamic A/B Testing Generator
+        const abTestGenerator = {
+            generateVariations: function(topic, platform, testType = 'quick') {
+                const variantCount = testType === 'quick' ? 3 : 5;
+                const variations = [];
+                
+                const styles = [
+                    { name: 'Professional', emoji: '👔', tone: 'formal', description: 'Data-driven and authoritative' },
+                    { name: 'Conversational', emoji: '💬', tone: 'casual', description: 'Friendly and approachable' },
+                    { name: 'Motivational', emoji: '🚀', tone: 'inspiring', description: 'Energetic and encouraging' },
+                    { name: 'Analytical', emoji: '📊', tone: 'detailed', description: 'In-depth and technical' },
+                    { name: 'Storytelling', emoji: '📖', tone: 'narrative', description: 'Personal and engaging' }
+                ];
+
+                for (let i = 0; i < variantCount; i++) {
+                    const style = styles[i];
+                    
+                    // Generate dynamic metrics based on style and topic
+                    const baseEngagement = style.tone === 'conversational' ? 75 : 
+                                         style.tone === 'motivational' ? 80 : 
+                                         style.tone === 'storytelling' ? 78 : 70;
+                    
+                    const engagement = baseEngagement + (Math.random() * 15 - 5);
+                    const clarity = 70 + Math.random() * 25;
+                    const sentiment = style.tone === 'motivational' ? 
+                                     (1.2 + Math.random() * 0.8).toFixed(2) : 
+                                     (0.8 + Math.random() * 0.6).toFixed(2);
+                    
+                    const impressions = Math.floor(500 + Math.random() * 2000);
+                    
+                    // Generate content for this specific variation
+                    const content = this.generateVariantContent(topic, platform, style);
+                    
+                    variations.push({
+                        id: `variant-${i + 1}`,
+                        name: `${style.emoji} ${style.name}`,
+                        fullTitle: `${style.name} ${platform.charAt(0).toUpperCase() + platform.slice(1)} Post`,
+                        style: style.name,
+                        description: style.description,
+                        platform: platform,
+                        engagement: Math.round(engagement),
+                        clarity: Math.round(clarity),
+                        sentiment: sentiment,
+                        impressions: impressions,
+                        content: content,
+                        conversion: (3 + Math.random() * 7).toFixed(1),
+                        color: this.getColorForStyle(style.name)
+                    });
+                }
+
+                // Sort by engagement and mark winner
+                variations.sort((a, b) => b.engagement - a.engagement);
+                variations[0].isWinner = true;
+                variations[0].badge = 'winner';
+                variations.slice(1).forEach(v => {
+                    v.isWinner = false;
+                    v.badge = 'contender';
+                });
+
+                return variations;
+            },
+
+            generateVariantContent: function(topic, platform, style) {
+                // Get base content
+                const baseContent = contentGenerator.generateContent(topic, platform);
+                
+                // Modify based on style
+                const styleModifiers = {
+                    'Professional': `**${style.name} Approach:** This variation presents ${topic} with precision and authority, backed by data and expert insights. Perfect for audiences seeking credible, well-researched information.\n\n`,
+                    'Conversational': `**${style.name} Approach:** Hey there! Let's chat about ${topic} like friends. This variation uses everyday language and relatable examples to make complex concepts easy to understand.\n\n`,
+                    'Motivational': `**${style.name} Approach:** Ready to transform your understanding of ${topic}? This inspiring variation will energize and motivate you to take action today!\n\n`,
+                    'Analytical': `**${style.name} Approach:** Detailed analysis of ${topic} reveals key patterns and insights. This variation breaks down complex information into understandable components with clear explanations.\n\n`,
+                    'Storytelling': `**${style.name} Approach:** Let me share a story about ${topic} that changed my perspective. This personal, narrative approach creates emotional connection and memorable learning.\n\n`
+                };
+
+                const modifier = styleModifiers[style.name] || styleModifiers['Professional'];
+                return modifier + baseContent.substring(0, 300) + '...';
+            },
+
+            getColorForStyle: function(style) {
+                const colors = {
+                    'Professional': '#3b82f6',
+                    'Conversational': '#10b981',
+                    'Motivational': '#f59e0b',
+                    'Analytical': '#8b5cf6',
+                    'Storytelling': '#ec4899'
+                };
+                return colors[style] || '#3b82f6';
+            },
+
+            generateTestResults: function(variations) {
+                const totalImpressions = variations.reduce((sum, v) => sum + v.impressions, 0);
+                const avgEngagement = variations.reduce((sum, v) => sum + v.engagement, 0) / variations.length;
+                const winner = variations[0];
+                const secondBest = variations[1] || winner;
+                const confidence = Math.min(99, 75 + ((winner.engagement - secondBest.engagement) * 2));
+
+                return {
+                    totalImpressions: totalImpressions.toLocaleString(),
+                    avgEngagement: avgEngagement.toFixed(1) + '%',
+                    conversionRate: winner.conversion + '%',
+                    confidenceLevel: confidence.toFixed(1) + '%',
+                    winner: winner,
+                    variations: variations
+                };
+            },
+
+            generateRecommendations: function(winner, variations, topic) {
+                const recommendations = [];
+                
+                recommendations.push(`🎯 **Winner Selected:** "${winner.style}" style with ${winner.engagement}% engagement score`);
+                recommendations.push(`📊 **Statistical Significance:** ${(winner.engagement - (variations[1]?.engagement || winner.engagement)).toFixed(1)}% higher than next best variant`);
+                
+                if (winner.engagement > 85) {
+                    recommendations.push(`🌟 **Excellent Performance:** This variant is performing exceptionally well. Consider using it as your primary content strategy.`);
+                } else if (winner.engagement > 75) {
+                    recommendations.push(`👍 **Good Performance:** Solid results. This variant shows strong potential for your "${topic}" content.`);
+                } else {
+                    recommendations.push(`💡 **Optimization Opportunity:** Consider refining the messaging or testing different angles for "${topic}".`);
+                }
+                
+                recommendations.push(`🎨 **Style Analysis:** ${winner.description} approach resonates best with your audience for "${topic}" content.`);
+                recommendations.push(`⏰ **Testing Duration:** For conclusive results, run this test for 48-72 hours before finalizing.`);
+                
+                return recommendations;
+            }
+        };
+
+        // DOM Elements
+        const platformItems = document.querySelectorAll('.platform-item');
+        const generateContentBtn = document.getElementById('generateContentBtn');
+        const runTestBtn = document.getElementById('runTestBtn');
+        const topicInput = document.getElementById('topicInput');
+        const contentPreview = document.getElementById('contentPreview');
+        const abTestingGrid = document.getElementById('abTestingGrid');
+        const loading = document.getElementById('loading');
+        const generatorPanel = document.getElementById('generatorPanel');
+        const abResultsPanel = document.getElementById('abResultsPanel');
+        const abControlBtns = document.querySelectorAll('.ab-control-btn');
+        const platformTitle = document.getElementById('platformTitle');
+        const platformDescription = document.getElementById('platformDescription');
+        const currentPlatform = document.getElementById('currentPlatform');
+        const copyContentBtn = document.getElementById('copyContentBtn');
+        const winnerBadge = document.getElementById('winnerBadge');
+        const totalImpressions = document.getElementById('totalImpressions');
+        const avgEngagement = document.getElementById('avgEngagement');
+        const conversionRate = document.getElementById('conversionRate');
+        const confidenceLevel = document.getElementById('confidenceLevel');
+        const performanceChart = document.getElementById('performanceChart');
+        const recommendationsList = document.getElementById('recommendationsList');
+        const currentTime = document.getElementById('currentTime');
+        const loadingTopic = document.getElementById('loadingTopic');
+        const loadingMessage = document.getElementById('loadingMessage');
+
+        // State
+        let currentPlatformType = 'youtube';
+        let currentTopic = 'Machine Learning';
+        let currentTestType = 'quick';
+        let currentVariations = [];
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            updateTime();
+            setInterval(updateTime, 60000);
+            generateInitialContent();
+        });
+
+        // Update time
+        function updateTime() {
+            const now = new Date();
+            const timeString = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+            const dateString = now.toLocaleDateString();
+            currentTime.innerHTML = `<i class="far fa-clock"></i> ${timeString} ${dateString}`;
+        }
+
+        // Platform switching
+        platformItems.forEach(item => {
+            item.addEventListener('click', function() {
+                platformItems.forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+                
+                currentPlatformType = this.dataset.platform;
+                updatePlatformDisplay();
+                
+                // Regenerate content for new platform with current topic
+                if (currentTopic) {
+                    generateContent();
+                }
+            });
+        });
+
+        // Test type switching
+        abControlBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                abControlBtns.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                currentTestType = this.dataset.testType;
+                
+                // Regenerate test if we have a topic
+                if (currentTopic) {
+                    runABTest();
+                }
+            });
+        });
+
+        // Generate content button
+        generateContentBtn.addEventListener('click', function() {
+            const topic = topicInput.value.trim();
+            if (!topic) {
+                alert('Please enter a topic first!');
+                topicInput.focus();
+                return;
+            }
+            
+            currentTopic = topic;
+            generateContent();
+        });
+
+        // Run A/B test button
+        runTestBtn.addEventListener('click', function() {
+            const topic = topicInput.value.trim();
+            if (!topic) {
+                alert('Please enter a topic first!');
+                topicInput.focus();
+                return;
+            }
+            
+            currentTopic = topic;
+            
+            // If no content generated yet, generate it first
+            if (contentPreview.textContent.includes('Enter any topic')) {
+                generateContent();
+            } else {
+                runABTest();
+            }
+        });
+
+        // Copy content button
+        copyContentBtn.addEventListener('click', function() {
+            const text = contentPreview.textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const original = copyContentBtn.innerHTML;
+                copyContentBtn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+                setTimeout(() => {
+                    copyContentBtn.innerHTML = original;
+                }, 2000);
+            });
+        });
+
+        // Update platform display
+        function updatePlatformDisplay() {
+            const platformNames = {
+                youtube: { name: 'YouTube', desc: 'Video scripts & descriptions' },
+                twitter: { name: 'Twitter/X', desc: 'Tweets & threads' },
+                linkedin: { name: 'LinkedIn', desc: 'Professional posts' },
+                instagram: { name: 'Instagram', desc: 'Captions & stories' },
+                blog: { name: 'Blog', desc: 'Articles & long-form' }
+            };
+            
+            const platform = platformNames[currentPlatformType];
+            const icon = currentPlatform.querySelector('i').className;
+            
+            currentPlatform.innerHTML = `
+                <i class="${icon}"></i>
+                <div>
+                    <h3>${platform.name} Content</h3>
+                    <p>${platform.desc}</p>
+                </div>
+            `;
+        }
+
+        // Generate initial content
+        function generateInitialContent() {
+            currentTopic = topicInput.value;
+            generateContent();
+        }
+
+        // Generate content
+        function generateContent() {
+            if (!currentTopic) return;
+            
+            loadingTopic.textContent = currentTopic;
+            loadingMessage.textContent = `Generating ${currentPlatformType} content for "${currentTopic}"...`;
+            loading.style.display = 'block';
+            generatorPanel.style.display = 'none';
+            abResultsPanel.style.display = 'none';
+            
+            setTimeout(() => {
+                // Generate platform-specific content for the user's topic
+                const content = contentGenerator.generateContent(currentTopic, currentPlatformType);
+                
+                contentPreview.textContent = content;
+                
+                loading.style.display = 'none';
+                generatorPanel.style.display = 'grid';
+                
+                // Automatically run A/B test
+                runABTest();
+            }, 800);
+        }
+
+        // Run A/B test
+        function runABTest() {
+            if (!currentTopic) return;
+            
+            loadingTopic.textContent = currentTopic;
+            loadingMessage.textContent = `Running A/B test for "${currentTopic}" on ${currentPlatformType}...`;
+            loading.style.display = 'block';
+            generatorPanel.style.display = 'none';
+            abResultsPanel.style.display = 'none';
+            
+            setTimeout(() => {
+                // Generate variations for the user's topic
+                currentVariations = abTestGenerator.generateVariations(
+                    currentTopic,
+                    currentPlatformType,
+                    currentTestType
+                );
+                
+                // Generate test results
+                const testResults = abTestGenerator.generateTestResults(currentVariations);
+                
+                // Update UI
+                renderVariations(currentVariations);
+                updateResultsPanel(testResults);
+                
+                loading.style.display = 'none';
+                generatorPanel.style.display = 'grid';
+                abResultsPanel.style.display = 'block';
+            }, 1200);
+        }
+
+        // Render variations
+        function renderVariations(variations) {
+            abTestingGrid.innerHTML = '';
+            
+            variations.forEach((variant, index) => {
+                const card = document.createElement('div');
+                card.className = `ab-variant-card ${variant.isWinner ? 'winner' : ''}`;
+                card.innerHTML = `
+                    <div class="ab-variant-header">
+                        <div>
+                            <div class="variant-title">${variant.name} - ${variant.description}</div>
+                            <div class="variant-platform">
+                                <i class="${platformItems[0].querySelector('i').className}"></i>
+                                For: "${currentTopic}"
+                            </div>
+                        </div>
+                        <div class="variant-badge ${variant.badge === 'winner' ? 'badge-winner' : 'badge-contender'}">
+                            ${variant.badge === 'winner' ? '🏆 Winner' : '🥈 Contender'}
+                        </div>
+                    </div>
+                    
+                    <div class="variant-content">
+                        ${variant.content}
+                    </div>
+                    
+                    <div class="variant-metrics">
+                        <div class="variant-metric">
+                            <div class="variant-metric-value engagement">${variant.engagement}%</div>
+                            <div class="variant-metric-label">Engagement</div>
+                        </div>
+                        <div class="variant-metric">
+                            <div class="variant-metric-value clarity">${variant.clarity}%</div>
+                            <div class="variant-metric-label">Clarity</div>
+                        </div>
+                        <div class="variant-metric">
+                            <div class="variant-metric-value sentiment">${variant.sentiment}%</div>
+                            <div class="variant-metric-label">Sentiment</div>
+                        </div>
+                    </div>
+                    
+                    <div class="variant-actions">
+                        <button class="variant-action-btn select" onclick="selectVariant(${index})">
+                            <i class="fas fa-check"></i> Use This
+                        </button>
+                        <button class="variant-action-btn" onclick="viewVariant(${index})">
+                            <i class="fas fa-eye"></i> Preview
+                        </button>
+                    </div>
+                `;
+                
+                abTestingGrid.appendChild(card);
+            });
+        }
+
+        // Update results panel
+        function updateResultsPanel(results) {
+            winnerBadge.textContent = `Winner: ${results.winner.style} Style`;
+            totalImpressions.textContent = results.totalImpressions;
+            avgEngagement.textContent = results.avgEngagement;
+            conversionRate.textContent = results.conversionRate;
+            confidenceLevel.textContent = results.confidenceLevel;
+            
+            // Generate recommendations
+            const recommendations = abTestGenerator.generateRecommendations(
+                results.winner,
+                results.variations,
+                currentTopic
+            );
+            
+            recommendationsList.innerHTML = recommendations
+                .map(rec => `<p style="margin-bottom: 10px; padding-left: 20px; position: relative;">
+                    <span style="position: absolute; left: 0;">•</span> ${rec}
+                </p>`)
+                .join('');
+            
+            // Update chart
+            updatePerformanceChart(results.variations);
+        }
+
+        // Update performance chart
+        function updatePerformanceChart(variations) {
+            performanceChart.innerHTML = '';
+            
+            variations.forEach((variant, index) => {
+                const barHeight = variant.engagement;
+                const bar = document.createElement('div');
+                bar.className = 'chart-bar';
+                bar.style.height = `${barHeight}%`;
+                bar.style.background = `linear-gradient(to top, ${variant.color}, ${lightenColor(variant.color, 30)})`;
+                bar.style.width = `${80 - (index * 5)}px`;
+                
+                bar.innerHTML = `
+                    <div class="chart-bar-value">${variant.engagement}%</div>
+                    <div class="chart-bar-label">${variant.style}</div>
+                `;
+                
+                performanceChart.appendChild(bar);
+            });
+        }
+
+        // Helper function to lighten color
+        function lightenColor(color, percent) {
+            const num = parseInt(color.replace("#", ""), 16);
+            const amt = Math.round(2.55 * percent);
+            const R = (num >> 16) + amt;
+            const G = (num >> 8 & 0x00FF) + amt;
+            const B = (num & 0x0000FF) + amt;
+            
+            return "#" + (
+                0x1000000 +
+                (R < 255 ? R < 1 ? 0 : R : 255) * 0x10000 +
+                (G < 255 ? G < 1 ? 0 : G : 255) * 0x100 +
+                (B < 255 ? B < 1 ? 0 : B : 255)
+            ).toString(16).slice(1);
+        }
+
+        // Action functions
+        window.selectVariant = function(index) {
+            const variant = currentVariations[index];
+            const content = contentGenerator.generateContent(currentTopic, currentPlatformType);
+            
+            // Create enhanced content with selected style
+            const enhancedContent = `**${variant.style} Style - Selected as Winner**\n\n${content}\n\n---\n🎯 Selected based on A/B test results:\nEngagement: ${variant.engagement}%\nClarity: ${variant.clarity}%\nSentiment: ${variant.sentiment}%`;
+            
+            contentPreview.textContent = enhancedContent;
+            
+            alert(`✅ "${variant.style}" variation selected!\n\nThis content has been updated with the winning style from your A/B test.`);
+        };
+
+        window.viewVariant = function(index) {
+            const variant = currentVariations[index];
+            
+            const details = `
+                📊 VARIANT DETAILS
+                
+                Style: ${variant.style}
+                Description: ${variant.description}
+                
+                📈 PERFORMANCE METRICS:
+                Engagement: ${variant.engagement}%
+                Clarity: ${variant.clarity}%
+                Sentiment: ${variant.sentiment}%
+                Estimated Reach: ${variant.impressions.toLocaleString()} impressions
+                Conversion Rate: ${variant.conversion}%
+                
+                📝 CONTENT PREVIEW:
+                ${variant.content.substring(0, 400)}...
+            `;
+            
+            alert(details);
+        };
+    </script>
+</body>
+</html>
