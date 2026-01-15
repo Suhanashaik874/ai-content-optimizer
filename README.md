@@ -159,14 +159,6 @@ Responsible for:
 
 ## 📁 `milestone_3/`
 
-**Advanced Analytics & Automation Modules**
-
-### 📄 `dashboard.py`
-
-* Backend logic for analytics visualization
-* Aggregates metrics for display
-
----
 
 ### 📄 `metrics_tracker.py`
 
